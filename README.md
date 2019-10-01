@@ -1,5 +1,7 @@
 # heroku-buildpack-cleanup
 
+[![Build Status](https://travis-ci.com/dabapps/heroku-buildpack-cleanup.svg?branch=master)](https://travis-ci.com/dabapps/heroku-buildpack-cleanup)
+
 Cleanup many things from a Heroku slug after build:
 
 - `node_modules/`
