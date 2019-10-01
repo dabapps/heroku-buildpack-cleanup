@@ -4,5 +4,5 @@ BUILD_DIR=$1
 
 if [ -d "$BUILD_DIR/node_modules" ]; then
     echo "Removing node_modules/"
-    rm -r $BUILD_DIR/node_modules
+    rm -r "$BUILD_DIR/node_modules"
 fi
