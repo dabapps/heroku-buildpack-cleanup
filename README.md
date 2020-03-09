@@ -1,6 +1,6 @@
 # heroku-buildpack-cleanup
 
-[![Build Status](https://travis-ci.com/dabapps/heroku-buildpack-cleanup.svg?branch=master)](https://travis-ci.com/dabapps/heroku-buildpack-cleanup)
+![](https://github.com/dabapps/heroku-buildpack-cleanup/workflows/CI/badge.svg)
 
 Cleanup many things from a Heroku slug after build:
 
