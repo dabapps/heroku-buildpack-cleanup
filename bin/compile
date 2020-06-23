@@ -2,7 +2,15 @@
 
 BUILD_DIR=$1
 
-if [ -d "$BUILD_DIR/node_modules" ]; then
-    echo "Removing node_modules/"
-    rm -r "$BUILD_DIR/node_modules"
-fi
+dirs=(
+    node_modules
+    static
+)
+
+for dir in "${dirs[@]}"
+do
+    if [ -d "$BUILD_DIR/$dir" ]; then
+        echo "Removing $dir/"
+        rm -r "$BUILD_DIR/${dir:?}"
+    fi
+done
